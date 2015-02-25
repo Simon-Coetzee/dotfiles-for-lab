@@ -1,0 +1,50 @@
+((("snps.from.rsid" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("snps.from.bed" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("snps" .
+   [0 0 0 1])
+  ("rsid.refseq" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("IUPAC_CODE_MAP" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("str" .
+   [2 0 0])
+  ("str_replace" .
+   [0 0 0 0 0 0 0 0 0 0 2])
+  ("providerName" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("head" .
+   [5 0 0 0])
+  ("motif.names.uniprot" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1])
+  ("motif.names.i" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("motif.names.uniprot[" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("merge" .
+   [1 0 0 0 0])
+  ("motif.names.uniprot.d" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("motifBreaker" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("snpList" .
+   [0 0 0 0 0 0 1])
+  ("pcasnps" .
+   [0 0 0 1 2 0 0])
+  ("pwmList" .
+   [0 0 0 0 1 0 0])
+  ("firstforty" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("threshold" .
+   [0 0 0 0 0 0 1 0 0])
+  (".85" .
+   [1 0 0])
+  ("traceback" .
+   [0 0 0 0 0 0 0 1 0])
+  ("ls" .
+   [1 0])
+  ("split" .
+   [1 0 0 0 0])
+  ("library" .
+   [1 0 0 0 0 0 0])))

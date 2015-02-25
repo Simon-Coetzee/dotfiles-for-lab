@@ -1,0 +1,37 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/coetzeesg/Work/motifbreaker/" . "R/")
+ ("/Users/coetzeesg/Work/" . "motifbreaker/")
+ ("/Users/coetzeesg/" . "Work/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/coetzeesg/Work/motifbreaker/R/"
+ "/Users/coetzeesg/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "locus.from.rsid.R"
+ ".emacs"
+ "scoreMotif.R"
+ "scratchpad.R"
+ "scoresnplist.R"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/coetzeesg/Work/motifbreaker/R/" (21741 11825 0 0) "scratchpad.R" "scoresnplist.R~" "scoresnplist.R" "scoreMotif.R" "locus.from.rsid.R" "#locus.from.rsid.R#" "../" "./")
+
+ ("/Users/coetzeesg/" (21741 11829 0 0) "Work/" "test.R" "Public/" "Pictures/" "ownCloud/" "Music/" "Movies/" "motifbreaker.enceladus.tar.gz" "motifbreaker/" "Library/" "Downloads/" "Documents/" "Desktop/" ".zshrc" ".zshenv" ".zsh_history" ".zsh-update" ".zcompdump-iMac-5.0.7" ".zcompdump-iMac-5.0.5" ".virtualenvs/" ".vimrc" ".viminfo" ".vim_backup/" ".vim/" ".Trash/" ".ssh/" ".Rprofile" ".oh-my-zsh/" ".lesshst" ".hgignore_global" ".gitignore_global" ".gitconfig" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".config/" ".CFUserTextEncoding" ".bash_history" ".account" "../" "./")
+
+ ("/Users/coetzeesg/Work/motifbreaker/" (21740 49867 0 0) "wiki/" "R/" "pca.enhancer.snps" "motifbreaker.Rproj" "motifbreaker-package/" "man/" "example.Rda" "DESCRIPTION" "anc/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/coetzeesg/Work/" (21740 45049 0 0) "motifbreaker/" "fsnp2/" "ELMER/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
