@@ -32,9 +32,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-;; evil
+;; autocomplete
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+;; evil
 (ac-config-default)
 (require 'evil)
 (evil-mode 1)
@@ -42,7 +43,7 @@
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 ;; ESS stuff
-;;(setq ess-default-style 'DEFAULT)
+(setq ess-default-style 'DEFAULT)
 (require 'ess-site)
 ;;(setq ess-use-auto-complete 't)
 (setq ess-eval-viibly nil) ; ESS will not print the evaluated commands, also speeds up the eval
