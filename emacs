@@ -32,6 +32,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+;; line numbers
+(require 'linum)
+(linum-mode 1)
 ;; parens
 (show-paren-mode 1)
 (setq show-paren-delay 0)
