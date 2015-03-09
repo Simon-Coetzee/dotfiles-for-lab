@@ -10,25 +10,31 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/coetzeesg/Work/motifbreaker/R/"
+ "/Users/coetzeesg/Desktop/"
  "/Users/coetzeesg/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "locus.from.rsid.R"
- ".emacs"
- "scoreMotif.R"
  "scratchpad.R"
+ "scoreMotif.R"
+ "locus.from.rsid.R"
+ "example.query.R"
  "scoresnplist.R"
+ ".emacs"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/coetzeesg/Work/motifbreaker/R/" (21741 11825 0 0) "scratchpad.R" "scoresnplist.R~" "scoresnplist.R" "scoreMotif.R" "locus.from.rsid.R" "#locus.from.rsid.R#" "../" "./")
+ ("/Users/coetzeesg/Work/motifbreaker/R/" (21754 11810 0 0) "scratchpad.R" "scoresnplist.R~" "scoresnplist.R" "scoreMotif.R" "locus.from.rsid.R" ".Rhistory" "#scratchpad.R#" "../" "./")
 
- ("/Users/coetzeesg/" (21741 11829 0 0) "Work/" "test.R" "Public/" "Pictures/" "ownCloud/" "Music/" "Movies/" "motifbreaker.enceladus.tar.gz" "motifbreaker/" "Library/" "Downloads/" "Documents/" "Desktop/" ".zshrc" ".zshenv" ".zsh_history" ".zsh-update" ".zcompdump-iMac-5.0.7" ".zcompdump-iMac-5.0.5" ".virtualenvs/" ".vimrc" ".viminfo" ".vim_backup/" ".vim/" ".Trash/" ".ssh/" ".Rprofile" ".oh-my-zsh/" ".lesshst" ".hgignore_global" ".gitignore_global" ".gitconfig" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".config/" ".CFUserTextEncoding" ".bash_history" ".account" "../" "./")
+ ("/Users/coetzeesg/" (21754 11863 0 0) "Work/" "test.R" "Public/" "Pictures/" "ownCloud/" "Music/" "Movies/" "motifbreaker.enceladus.tar.gz" "motifbreaker/" "Library/" "igv/" "Downloads/" "Documents/" "Desktop/" "dbsnp142" "cshpcdir/" "cshpc_common/" "Applications/" ".zshrc" ".zshenv" ".zsh_history" ".zsh-update" ".zcompdump-iMac-5.0.7" ".zcompdump-iMac-5.0.5" ".Xauthority" ".virtualenvs/" ".vimrc" ".viminfo" ".vim_backup/" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".sqlite_history" ".Rprofile" ".rnd" ".oh-my-zsh/" ".lesshst" ".hgignore_global" ".gitignore_global" ".gitconfig" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dotfiles/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" ".account" "../" "./")
 
- ("/Users/coetzeesg/Work/motifbreaker/" (21740 49867 0 0) "wiki/" "R/" "pca.enhancer.snps" "motifbreaker.Rproj" "motifbreaker-package/" "man/" "example.Rda" "DESCRIPTION" "anc/" ".gitignore" ".git/" "../" "./")
+ ("/Users/coetzeesg/Desktop/" (21753 1455 0 0) "query.txt" "jdk-8u40-macosx-x64.dmg" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/" (21739 23911 0 0) "Shared/" "coetzeesg/" "administrator/" ".localized" "../" "./")
+
+ ("/Users/coetzeesg/Work/motifbreaker/" (21743 36747 0 0) "wiki/" "R/" "pca.enhancer.snps" "motifbreaker.Rproj" "motifbreaker-package/" "man/" "example.Rda" "DESCRIPTION" "anc/" ".gitignore" ".git/" "../" "./")
 
  ("/Users/coetzeesg/Work/" (21740 45049 0 0) "motifbreaker/" "fsnp2/" "ELMER/" "../" "./")
 )

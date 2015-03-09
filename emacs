@@ -33,6 +33,8 @@
  ;; If there is more than one, they won't work right.
  )
 ;; autocomplete
+(show-paren-mode 1)
+(setq show-paren-delay 0)
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
 ;; evil
@@ -58,7 +60,7 @@
 (require 'multi-term)
 (setq multi-term-program "/usr/bin/bash")
 ;; git stuff "Git-Gutter+"
-(global-git-gutter+-mode t)
+;; (global-git-gutter+-mode t)
 ;; Set variables like $PATH and $MANPATH from shell on mac
 (when (memq window-system '(mac ns))
   (exec-path-from-shell-initialize))
