@@ -19,7 +19,7 @@
 (load-theme 'base16-chalk t)
 ;;(load-theme 'zenburn t)
 ;;(load-theme 'solarized-dark t)
-(set-default-font "-*-Source Code Pro-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1")
+(set-default-font "-*-Source Code Pro-light-normal-normal-*-12-*-*-*-m-0-iso10646-1")
 ;;Melpa stuff
 (setq gnutls-min-prime-bits 1024)
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
@@ -32,15 +32,18 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-;; autocomplete
+;; parens
 (show-paren-mode 1)
 (setq show-paren-delay 0)
-(require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
 ;; evil
-(ac-config-default)
 (require 'evil)
 (evil-mode 1)
+(require 'evil-surround)
+(global-evil-surround-mode 1)
+;; autocomplete
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+(ac-config-default)
 ;; Remove Menu and icons
 (tool-bar-mode -1)
 (menu-bar-mode -1)
