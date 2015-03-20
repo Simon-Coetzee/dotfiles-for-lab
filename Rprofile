@@ -3,7 +3,8 @@ if(interactive()){
 	options(menu.graphics=FALSE)
 #	options(menu.graphics=FALSE, repos=c("http://www.vps.fmvz.usp.br/CRAN/",
 #										 "http://brieger.esalq.usp.br/CRAN/"))
-	options(prompt="R » ")
+#options(prompt="R » ")
+	options(prompt="R > ")
 	Sys.setenv(R_HISTSIZE='1000000')
 	source("http://bioconductor.org/biocLite.R")
 	chooseBioCmirror(ind=1)

@@ -13,13 +13,14 @@
 ;; (require 'un-define)
 (setq package-enable-at-startup nil)
 (package-initialize)
-;; Appearance
+;;; Appearance
 ;;(load-theme 'base16-ocean t)
 ;;; Other Themes - variety
 (load-theme 'base16-chalk t)
 ;;(load-theme 'zenburn t)
 ;;(load-theme 'solarized-dark t)
-(set-default-font "-*-Source Code Pro-light-normal-normal-*-12-*-*-*-m-0-iso10646-1")
+(set-face-attribute 'default nil :font "Source Code Pro-12:weight=light")
+;;(set-default-font "-*-Source Code Pro-light-normal-normal-*-13-*-*-*-m-0-iso10646-1")
 ;;Melpa stuff
 (setq gnutls-min-prime-bits 1024)
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
@@ -53,6 +54,12 @@
 ;; ESS stuff
 (setq ess-default-style 'DEFAULT)
 (require 'ess-site)
+(ess-toggle-underscore nil)
+(setq ac-source-R
+	  '((prefix . ess-ac-start)
+		(requires . 0)
+		(candidates . ess-ac-candidates)
+		(document . ess-ac-help)))
 ;;(setq ess-use-auto-complete 't)
 (setq ess-eval-viibly nil) ; ESS will not print the evaluated commands, also speeds up the eval
 (setq ess-ask-for-ess-directory nil); not to be prompted each time you start R
@@ -65,8 +72,6 @@
 ;; Terminal
 (require 'multi-term)
 (setq multi-term-program "/usr/bin/bash")
-;; git stuff "Git-Gutter+"
-;; (global-git-gutter+-mode t)
 ;; Set variables like $PATH and $MANPATH from shell on mac
 (when (memq window-system '(mac ns))
   (exec-path-from-shell-initialize))
