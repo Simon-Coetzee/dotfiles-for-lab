@@ -23,9 +23,10 @@
 ;;(set-default-font "-*-Source Code Pro-light-normal-normal-*-13-*-*-*-m-0-iso10646-1")
 ;;Melpa stuff
 (setq gnutls-min-prime-bits 1024)
+(require 'package)
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-                         ("marmalade" . "https://marmalade-repo.org/packages/")
-                         ("melpa" . "http://melpa.milkbox.net/packages/")))
+			  ("marmalade" . "https://marmalade-repo.org/packages/")
+			  ("melpa" . "http://melpa.milkbox.net/packages/")))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
