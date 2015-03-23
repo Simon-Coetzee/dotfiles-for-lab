@@ -19,7 +19,7 @@
 (load-theme 'base16-chalk t)
 ;;(load-theme 'zenburn t)
 ;;(load-theme 'solarized-dark t)
-(set-face-attribute 'default nil :font "Source Code Pro-12:weight=light")
+(set-face-attribute 'default nil :font "Source Code Pro-12")
 ;;(set-default-font "-*-Source Code Pro-light-normal-normal-*-13-*-*-*-m-0-iso10646-1")
 ;;Melpa stuff
 (setq gnutls-min-prime-bits 1024)
@@ -34,8 +34,12 @@
  ;; If there is more than one, they won't work right.
  )
 ;; line numbers
-(require 'linum)
-(linum-mode 1)
+(require 'linum-relative)
+;; disable linum-relative for iESS
+;;(require 'linum)
+;;(global-linum-mode 1)
+;; highlight current line
+(global-hl-line-mode 1)
 ;; parens
 (show-paren-mode 1)
 (setq show-paren-delay 0)
@@ -50,16 +54,16 @@
 (ac-config-default)
 ;; Remove Menu and icons
 (tool-bar-mode -1)
-(menu-bar-mode -1)
+;;(menu-bar-mode -1)
 ;; ESS stuff
 (setq ess-default-style 'DEFAULT)
 (require 'ess-site)
 (ess-toggle-underscore nil)
 (setq ac-source-R
-	  '((prefix . ess-ac-start)
-		(requires . 0)
-		(candidates . ess-ac-candidates)
-		(document . ess-ac-help)))
+      '((prefix . ess-ac-start)
+	(requires . 0) ;; this line in particular allows the popup of the help menu with out needing to start the word first
+	(candidates . ess-ac-candidates) ;; to get the default functionality back change (requires . 0) to (requires . 2)
+	(document . ess-ac-help)))
 ;;(setq ess-use-auto-complete 't)
 (setq ess-eval-viibly nil) ; ESS will not print the evaluated commands, also speeds up the eval
 (setq ess-ask-for-ess-directory nil); not to be prompted each time you start R
@@ -80,3 +84,13 @@
 (setq mouse-wheel-progressive-speed nil) ;; don't accelerate scrolling
 (setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
 (setq scroll-step 1) ;; keyboard scroll one line at a time
+;; git gutter
+;;(global-git-gutter+-mode t)
+;;(require 'git-gutter-fringe+)
+;;(git-gutter-fr+-minimal)
+;; AUCTeX
+	
+
+(load "auctex.el" nil t t)
+(setq TeX-auto-save t)
+(setq TeX-parse-self t)
