@@ -2,7 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/Users/coetzeesg/Work/motifbreaker/" . "R/")
+ ("/Users/coetzeesg/Work/motifbreakR/" . "R/")
+ ("/Users/coetzeesg/Work/motifbreaker/" . "anc/")
  ("/Users/coetzeesg/Work/" . "motifbreaker/")
  ("/Users/coetzeesg/" . "Work/")
 )
@@ -10,9 +11,12 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/coetzeesg/"
+ "/Users/coetzeesg/Work/motifbreaker/anc/"
+ "/Users/coetzeesg/Work/face/"
+ "/Users/coetzeesg/Work/motifbreakR/R/"
+ "/Users/coetzeesg/Work/motifbreakR/"
  "/Users/coetzeesg/Work/motifbreaker/R/"
  "/Users/coetzeesg/Desktop/"
- "/Users/coetzeesg/Work/motifbreaker/anc/"
  "/Users/coetzeesg/Work/ELMER/R/"
  "/Users/coetzeesg/Downloads/"
  "/Users/coetzeesg/.dotfiles/.git/"
@@ -22,38 +26,50 @@
 ;; ----- ido-work-file-list -----
 (
  ".emacs"
- "test.tex"
- "locus.from.rsid.R"
- "loadencode.R"
- "HOCOMOCOv9_motifs2uniprot.txt"
- "hocomoco.MotifDb.Rda"
+ "loadhomer.R"
  "loadhoco.R"
+ "loadencode.R"
+ "loadfactorbook.R"
+ "consensus.R"
+ "classify.R"
  "scoreMotif.R"
- "scoresnplist.R"
- "streaming.cpp"
+ "DESCRIPTION"
+ "locus.from.rsid.R"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/coetzeesg/" (21776 18251 0 0) "Work/" "test.tex" "test.bed" "streamingdb.R~" "streamingdb.R" "streaming.cpp~" "streaming.cpp" "Result/" "R/" "Public/" "Pictures/" "ownCloud/" "Music/" "Movies/" "Library/" "igv/" "Downloads/" "Documents/" "Desktop/" "cshpcdir/" "cshpc_common/" "BRCA/" "Applications/" ".zshrc" ".zshenv" ".zsh_history" ".zsh-update" ".zcompdump-iMac-5.0.7" ".zcompdump-iMac-5.0.5" ".Xauthority" ".virtualenvs/" ".vimrc" ".viminfo" ".vim_backup/" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".sqlite_history" ".rstudio-desktop/" ".Rprofile" ".rnd" ".Rhistory" ".Renviron" ".parallel/" ".oh-my-zsh/" ".mysql_history" ".local/" ".lesshst" ".hgignore_global" ".gitignore_global" ".gitconfig" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dotfiles/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" ".account" ".#test.tex" "#test.tex#" "../" "./")
+ ("/Users/coetzeesg/" (21809 25254 0 0) "Work/" "test.png" "streamingdb.R~" "streamingdb.R" "streaming.cpp~" "streaming.cpp" "stack2.xml" "stack.xml" "stack.ps.xml" "stack.ps" "R/" "Public/" "Pictures/" "ownCloud/" "Music/" "Movies/" "meme_4.10.0_4.tar.gz" "meme_4.10.0/" "Library/" "igv/" "Dropbox/" "Downloads/" "Documents/" "devel/" "Desktop/" "cshpcdir/" "cshpc_common/" "Applications/" ".zshrc" ".zshenv" ".zsh_history" ".zsh-update" ".zcompdump-iMac-5.0.7" ".zcompdump-iMac-5.0.5" ".zcompdump-awa811100-5.0.7" ".Xauthority" ".virtualenvs/" ".vimrc" ".viminfo" ".vim_backup/" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".sqlite_history" ".serverauth.88888" ".rstudio-desktop/" ".Rprofile" ".rnd" ".Rhistory" ".Renviron" ".RData" ".parallel/" ".oh-my-zsh/" ".mysql_history" ".local/" ".lesshst" ".hgignore_global" ".gnome2/" ".gitignore_global" ".gitconfig" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".dotfiles/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" ".account" "#test.txt#" "#stack.xml#" "../" "./")
 
- ("/Users/coetzeesg/.dotfiles/" (21772 38283 0 0) "Rprofile" "README.md" "emacs.d/" "emacs" ".gitignore" ".git/" ".#emacs" "#emacs#" "../" "./")
+ ("/Users/coetzeesg/Work/motifbreaker/anc/" (21805 44562 0 0) "uniprot.homer.entrez.txt" "uniprot.hoco.single.txt" "uniprot.hoco.combo.txt" "uniprot.hoco.combo.processed.txt" "uniprot.encode.entrez.uni.txt" "snps.nobreak.bed" "snps.bed" "motifs.from.meme.txt.sh" "meme.names.txt" "loadhomer.R~" "loadhomer.R" "loadhoco.R~" "loadhoco.R" "loadfactorbook.R~" "loadfactorbook.R" "loadencode.R~" "loadencode.R" "homer.motifs/" "homer.entrez.txt" "HOCOMOCOv9_motifs2uniprot.txt" "hocomoco.MotifDb.Rda" "factorbook.pwm.whead.txt" ".Rhistory" ".DS_Store" ".#loadfactorbook.R" ".#loadencode.R" "#loadhoco.R#~" "#loadfactorbook.R#" "#loadencode.R#" "../" "./")
 
- ("/Users/coetzeesg/.dotfiles/.git/" (21772 37844 0 0) "sourcetreeconfig" "refs/" "ORIG_HEAD" "objects/" "logs/" "index" "HEAD" "FETCH_HEAD" "config" "COMMIT_EDITMSG" "../" "./")
+ ("/Users/coetzeesg/.emacs.d/" (21800 35409 0 0) "tramp" "session.10da42b7455e37fcdb142237903153383300000017490044" "session.10c3ddf83cdbed33b142361324271194900000018460109" "session.10a76399099c15198e142411231663710400000017570040" "session.1099a2f6a4904c8d5141929805134858400000017330052" "session.107e6794a175e23d8014238740381451100000017850049" "session.1041b089fa85ab2787141841037327010800000013870038" "ido.last~" "ido.last" "elpa/" "auto-save-list/" "ac-comphist.dat" "../" "./")
 
- ("/Users/coetzeesg/Work/motifbreaker/anc/" (21772 36748 0 0) "uniprot.hoco.single.txt" "uniprot.hoco.combo.txt" "uniprot.hoco.combo.processed.txt" "snps.nobreak.bed" "snps.bed" "loadhoco.R~" "loadhoco.R" "loadencode.R~" "loadencode.R" "HOCOMOCOv9_motifs2uniprot.txt" "hocomoco.MotifDb.Rda" ".Rhistory" "#loadhoco.R#~" "../" "./")
+ ("/Users/coetzeesg/.emacs.d/elpa/" (21803 58639 0 0) "zenburn-theme-20150315.1540/" "zenburn-0.1/" "yasnippet-20150405.1526/" "undo-tree-20140509.522/" "swap-buffers-readme.txt" "solarized-theme-20150407.1416/" "smartparens-readme.txt" "smartparens-20150409.923/" "powerline-readme.txt" "popup-20150315.612/" "paredit-20150217.713/" "multi-term-20150220.1320/" "linum-relative-readme.txt" "linum-relative-20150224.2118/" "latex-preview-pane-readme.txt" "latex-preview-pane-20150324.550/" "latex-math-preview-readme.txt" "ido-vertical-mode-20150215.913/" "ido-ubiquitous-20150412.1842/" "ido-gnus-20140216.846/" "ido-completing-read+-20150412.1842/" "ido-complete-space-or-hyphen-20130228.208/" "goto-chg-20131228.1459/" "gnupg/" "git-gutter-fringe+-20140729.403/" "git-gutter+-readme.txt" "git-gutter+-20150216.940/" "git-commit-mode-20150330.1048/" "fringe-helper-20140620.1409/" "fill-column-indicator-readme.txt" "fill-column-indicator-20140509.1101/" "exec-path-from-shell-readme.txt" "exec-path-from-shell-20141212.846/" "evil-surround-20150117.1102/" "evil-smartparens-readme.txt" "evil-smartparens-20150405.121/" "evil-paredit-20141006.101/" "evil-org-20141002.253/" "evil-args-20140329.1429/" "evil-20150413.0/" "ess-20150409.1221/" "dash-20150311.2355/" "base16-theme-20150127.1939/" "auto-complete-chunk-readme.txt" "auto-complete-c-headers-readme.txt" "auto-complete-auctex-readme.txt" "auto-complete-auctex-20140223.958/" "auto-complete-20150408.1132/" "auctex-readme.txt" "auctex-11.88.4/" "archives/" "../" "./")
 
- ("/Users/coetzeesg/Work/motifbreaker/R/" (21772 38202 0 0) "scratchpad.R" "scoresnplist.R~" "scoresnplist.R" "scoreMotif.R" "locus.from.rsid.R" ".Rhistory" "#scratchpad.R#" "../" "./")
+ ("/Users/coetzeesg/.emacs.d/elpa/auctex-11.88.4/" (21803 58524 0 0) "toolbar-x.elc" "toolbar-x.el" "texmathp.elc" "texmathp.el" "tex.elc" "tex.el" "tex-wizard.elc" "tex-wizard.el" "tex-style.elc" "tex-style.el" "tex-site.elc" "tex-site.el" "tex-mik.elc" "tex-mik.el" "tex-jp.elc" "tex-jp.el" "tex-info.elc" "tex-info.el" "tex-font.elc" "tex-font.el" "tex-fold.elc" "tex-fold.el" "tex-buf.elc" "tex-buf.el" "tex-bar.elc" "tex-bar.el" "tests/" "style/" "RELEASE" "README.GIT" "README" "prv-xemacs.elc" "prv-xemacs.el" "prv-emacs.elc" "prv-emacs.el" "preview.elc" "preview.el" "preview-latex.info" "plain-tex.elc" "plain-tex.el" "multi-prompt.elc" "multi-prompt.el" "latex.elc" "latex.el" "latex/" "images/" "GNUmakefile" "font-latex.elc" "font-latex.el" "doc/" "dir" "COPYING" "context.elc" "context.el" "context-nl.elc" "context-nl.el" "context-en.elc" "context-en.el" "circ.tex" "ChangeLog-preview.1" "ChangeLog-preview" "ChangeLog" "bib-cite.elc" "bib-cite.el" "auctex.info" "auctex.elc" "auctex.el" "auctex-pkg.elc" "auctex-pkg.el" "auctex-autoloads.el~" "auctex-autoloads.el" ".elpaignore" "../" "./")
 
- ("/Users/coetzeesg/Downloads/" (21772 25352 0 0) "wgbs-encode.txt" "vignette.tex" "vignette.Rnw~" "vignette.Rnw" "TFBSTools_1.4.0.tar.gz" "TFBSTools/" "texstudio_2.9.0_osx_qt5.zip" "TableS4.xls" "TableS3.xls" "TableS1.xls" "stream_1.1-3.tar.gz" "stream_1.1-2.tar.gz" "stream_1.1-1.tar.gz" "stream/" "SNPlocs.Hsapiens.dbSNP.20120608_0.99.9.tar.gz" "SNPlocs.Hsapiens.dbSNP.20120608/" "RStudio-0.98.1103.dmg" "Rplots.pdf" "Result/" "reslogs.Rda" "refcard.pdf" "refcard-1.pdf" "motifs-sim.txt.gz" "minfiData_0.7.1.tar.gz" "How to do screen sharing with google+.pptx" "ggbio.pdf" "genotyping_supplemental_file_descriptions.png" "Genome Res.-2015-Lay-gr.183368.114.pdf" "Genome Res.-2015-Kim-gr.180612.114.pdf" "epsilon13.12.pdf" "epsilon-manual-pdf-13.12.zip" "encode_motifs.txt" "ENCFF105JRY.tsv.part" "ELMERvignette.pdf" "ELMER.example.tar.xz" "ELMER.example.code.R" "ELMER.example/" "drerio.snps.Zv9.bed3.short" "drerio.snps.Zv9.bed2.short" "drerio.snps.Zv9.bed" "download.log" "DiffBind_1.12.3.tar.gz" "DiffBind_1.12.2.tar.gz" "DiffBind/" "dbsnp142.txt.gz" "datastyle.pdf" "CNVrd2_1.4.0.tar.gz" "CNVrd2/" "10.1371_journal.pcbi.1002147.g001.ppt" ".Rhistory" ".localized" ".DS_Store" "._ELMER.example.EqY339" "#ELMER.example.code.R#" "../" "./")
+ ("/Users/coetzeesg/.dotfiles/" (21804 3675 0 0) "Rprofile" "Renviron" "README.md" "emacs.d/" "emacs" ".gitignore" ".git/" "../" "./")
 
- ("/Users/coetzeesg/Desktop/" (21770 10911 0 0) "vignettes.Rnw" "test.tex" "test.synctex.gz" "test.Rnw" "test.pdf" "test.log" "test-concordance.tex" "query.txt" "motifbreaker/" "figure/" "example.query.R" ".localized" ".DS_Store" "../" "./")
+ ("/Users/coetzeesg/.dotfiles/.git/" (21800 25541 0 0) "sourcetreeconfig" "refs/" "ORIG_HEAD" "objects/" "logs/" "index" "HEAD" "FETCH_HEAD" "config" "COMMIT_EDITMSG" "../" "./")
+
+ ("/Users/coetzeesg/Downloads/" (21804 16930 0 0) "uniprot-yourlist%3AM2015040995AJBBYLY9.tab" "TFClass_ontologies.zip" "TFBSTools_1.4.0.tar.gz" "TFBSTools/" "TFBS.tar.gz" "TFBS/" "TableS4.xls" "TableS4-1.xls" "TableS3.xls" "TableS3-1.xls" "TableS1.xls" "TableS1-1.xls" "SNPlocs.Hsapiens.dbSNP.20120608_0.99.9.tar.gz" "SNPlocs.Hsapiens.dbSNP.20120608/" "Rplots.pdf" "Result/" "reslogs.Rda" "PWM.tar.gz" "PWM/" "MarisaRollinsResume.doc.pdf" "MarisaRollinsResume.doc.docx" "Marisa Rollins Resume.doc" "Marisa Rollins Resume(7.14.11).pdf" "How to do screen sharing with google+.pptx" "gomo_databases.3.1.tgz" "Genome Res.-2015-Lay-gr.183368.114.pdf" "facecounts.RDa" "encode_motifs.txt" "Emacs-24.5-universal.dmg" "ELMER.example.code.R" "DiffBind_1.12.2.tar.gz" "DiffBind/" "dhsgroups.bed" "dbsnp142.txt.gz" "datastyle.pdf" "data-wrangling-cheatsheet.pdf" "Data Analysis_ A Bayesian Tutorial.tpz" "10.1371_journal.pcbi.1002147.g001.ppt" ".Rhistory" ".localized" ".DS_Store" "._ELMER.example.EqY339" "#ELMER.example.code.R#" "../" "./")
+
+ ("/Users/coetzeesg/Desktop/" (21804 334 0 0) "vignettes.Rnw" "test.tex" "test.synctex.gz" "test.Rnw" "test.png" "test.pdf" "test.log" "test-concordance.tex" "temp" "Saccharomyces_cerevisiae.gvf" "Saccharomyces_cerevisiae.bed" "query.txt" "practicedata.rda" "MotifDb_1.9.1.tar.gz" "MotifDb/" "motifbreaker/" "motif.test.png" "motif.test.pdf" "igv_snapshot.svg" "genes.txt" "figure/" "example_locus.svg" "example_locus.png" "example.query.R" "example.figure.pdf" "alt.txt" "5ABanrZ.jpg" "1-s2.0-S0895717711001075-main.pdf" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/coetzeesg/Work/motifbreaker/R/" (21799 13074 0 0) "scratchpad.R" "scoresnplist.R~" "scoresnplist.R" "scoreMotif.R~" "scoreMotif.R" "locus.from.rsid.R~" "locus.from.rsid.R" "data.R" ".Rhistory" "#scoresnplist.R#" "../" "./")
+
+ ("/Users/coetzeesg/Work/motifbreakR/" (21804 1814 0 0) "vignettes/" "R/" "NAMESPACE" "motifbreakR.Rproj" "man/" "inst/" "DESCRIPTION~" "DESCRIPTION" "data/" "capturestack.ps" ".Rproj.user/" ".Rhistory" ".Rbuildignore" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/coetzeesg/Work/motifbreaker/" (21799 13006 0 0) "wiki/" "vignettes/" "snps.example.txt" "R/" "pca.enhancer.snps" "NAMESPACE" "motifbreakR.Rproj" "motifbreaker.Rproj" "motifbreaker-package/" "man/" "inst/" "example.Rda" "DESCRIPTION~" "DESCRIPTION" "data/" "Danio_rerio.gvf.gz" "capturestack.ps" "anc/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/coetzeesg/Work/" (21799 13708 0 0) "useful_functions/" "project/" "motifbreakR_0.1.2.tar.gz" "motifbreakR_0.1.1.tar.gz" "motifbreakR_0.1.0.tar.gz" "motifbreakR/" "motifbreaker/" "fsnp2/" "face/" "ELMER_0.99.16.tar.gz" "ELMER.Rcheck/" "ELMER/" ".Rd2pdf77566/" ".DS_Store" "../" "./")
+
+ ("/Users/coetzeesg/Work/face/" (21796 24507 0 0) "untitled_consensus_cluster/" "k5.55tf.scalerow.png" "k5.55tf.scalerow.01.png" "k5.55tf.scalenone.sqrt.png" "k5.55tf.scalenone.png" "k5.55tf.scalenone.01.png" "k5.55tf.scalenone.01.classesk7.png" "k5.55tf.noscale.rda" "distance.cluster.k4.rda" "consensus.R~" "consensus.R" "classify.R" ".Rhistory" ".DS_Store" "../" "./")
+
+ ("/Users/coetzeesg/Work/motifbreakR/R/" (21796 5609 0 0) "scoreMotif.R~" "scoreMotif.R" "locus.from.rsid.R~" "locus.from.rsid.R" "data.R" "../" "./")
 
  ("/Users/coetzeesg/Work/ELMER/R/" (21770 65025 0 0) "TCGA_pipe.R" "StatisticTest.R" "Small.R" "Schematic.plot.R" "Scatter.plot.R" "ReadFile.R" "motif.TF.Plots.R" "methodAccess.R" "Main_function.R" "GetNearbyGenes.R" "generic.R" "FetchTCGA.R" "Class.R" "../" "./")
-
- ("/Users/coetzeesg/Work/motifbreaker/" (21768 21778 0 0) "wiki/" "R/" "pca.enhancer.snps" "motifbreaker.Rproj" "motifbreaker-package/" "man/" "example.Rda" "DESCRIPTION" "Danio_rerio.gvf.gz" "anc/" ".gitignore" ".git/" "../" "./")
-
- ("/Users/coetzeesg/Work/" (21770 11634 0 0) "vignettes.toc" "vignettes.tex" "vignettes.pdf" "vignettes.out" "vignettes.log" "vignettes.aux" "useful_functions/" "motifbreaker/" "fsnp2/" "figure/" "ELMER_0.99.8.tar.gz" "ELMER_0.99.6.tar.gz" "ELMER_0.99.16.tar.gz" "ELMER_0.99.15.tar.gz" "ELMER_0.99.14.tar.gz" "ELMER_0.99.13.tar.gz" "ELMER_0.99.12.tar.gz" "ELMER_0.99.11.tar.gz" "ELMER_0.99.10.tar.gz" "ELMER.Rcheck/" "ELMER/" "cache/" ".Rd2pdf77566/" "../" "./")
 
  ("/Users/coetzeesg/Work/ELMER/" (21760 52265 0 0) "R/" "NAMESPACE" "man/" "inst/" "ELMER.Rproj" "ELMER.example/" "DESCRIPTION" ".Rbuildignore" ".gitignore" ".git/" "../" "./")
 
