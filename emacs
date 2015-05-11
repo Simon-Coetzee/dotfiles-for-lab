@@ -6,7 +6,19 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(diff-switches "-u")
- '(ess-R-font-lock-keywords (quote ((ess-R-fl-keyword:modifiers . t) (ess-R-fl-keyword:fun-defs . t) (ess-R-fl-keyword:keywords . t) (ess-R-fl-keyword:assign-ops . t) (ess-R-fl-keyword:constants . t) (ess-fl-keyword:fun-calls . t) (ess-fl-keyword:numbers . t) (ess-fl-keyword:operators . t) (ess-fl-keyword:delimiters) (ess-fl-keyword:=) (ess-R-fl-keyword:F&T))))
+ '(ess-R-font-lock-keywords
+   (quote
+    ((ess-R-fl-keyword:modifiers . t)
+     (ess-R-fl-keyword:fun-defs . t)
+     (ess-R-fl-keyword:keywords . t)
+     (ess-R-fl-keyword:assign-ops . t)
+     (ess-R-fl-keyword:constants . t)
+     (ess-fl-keyword:fun-calls . t)
+     (ess-fl-keyword:numbers . t)
+     (ess-fl-keyword:operators . t)
+     (ess-fl-keyword:delimiters)
+     (ess-fl-keyword:=)
+     (ess-R-fl-keyword:F&T))))
  '(inhibit-startup-screen t))
 
 ;;; uncomment for CJK utf-8 support for non-Asian users
@@ -22,12 +34,13 @@
   (add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/") t)
   )
 ;;; Appearance
-;;(load-theme 'base16-ocean t)
+;;(load-theme 'base16-ocean-dark t)
 ;;; Other Themes - variety
-(load-theme 'base16-chalk t)
+;;(load-theme 'base16-chalk-dark t)
+(load-theme 'base16-ocean-dark t)
 ;;(load-theme 'zenburn t)
 ;;(load-theme 'solarized-dark t)
-(set-face-attribute 'default nil :font "Source Code Pro-12")
+(set-face-attribute 'default nil :font "Source Code Pro-10")
 ;;(set-default-font "-*-Source Code Pro-light-normal-normal-*-13-*-*-*-m-0-iso10646-1")
 
 (custom-set-faces
@@ -35,14 +48,17 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+)
 ;; 80 column line
 (require 'fill-column-indicator)
 (setq fci-rule-column 80)
 ;; line numbers
 (require 'linum-relative)
+;;(set-face-background 'hl-line "#E6E1DC")
 ;; disable linum-relative for iESS
 ;;(require 'linum)
+;;(linum-mode 1)
+
 ;;(global-linum-mode 1)
 ;; highlight current line
 (global-hl-line-mode 1)
@@ -116,8 +132,6 @@
 ;;(require 'git-gutter-fringe+)
 ;;(git-gutter-fr+-minimal)
 ;; AUCTeX
-
-
 (load "auctex.el" nil t t)
 (setq TeX-auto-save t)
 (setq TeX-parse-self t)
