@@ -34,13 +34,15 @@
   (add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/") t)
   )
 ;;; Appearance
-;;(load-theme 'base16-ocean-dark t)
 ;;; Other Themes - variety
 ;;(load-theme 'base16-chalk-dark t)
-(load-theme 'base16-ocean-dark t)
+;;(load-theme 'base16-grayscale-light t)
+(load-theme 'leuven t)
+;;(load-theme 'base16-railscasts-light t)
+;;(load-theme 'base16-ocean-dark t)
 ;;(load-theme 'zenburn t)
 ;;(load-theme 'solarized-dark t)
-(set-face-attribute 'default nil :font "Source Code Pro-10")
+(set-face-attribute 'default nil :font "Office Code Pro-10")
 ;;(set-default-font "-*-Source Code Pro-light-normal-normal-*-13-*-*-*-m-0-iso10646-1")
 
 (custom-set-faces
@@ -53,8 +55,7 @@
 (require 'fill-column-indicator)
 (setq fci-rule-column 80)
 ;; line numbers
-(require 'linum-relative)
-;;(set-face-background 'hl-line "#E6E1DC")
+;;(require 'linum-relative)
 ;; disable linum-relative for iESS
 ;;(require 'linum)
 ;;(linum-mode 1)
@@ -62,9 +63,11 @@
 ;;(global-linum-mode 1)
 ;; highlight current line
 (global-hl-line-mode 1)
+(set-face-background 'hl-line "#E3E3E3")
 ;; parens
 (show-paren-mode 1)
 (setq show-paren-delay 0)
+(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 ;; evil
 (require 'evil)
 (evil-mode 1)
@@ -100,7 +103,7 @@
 (ess-toggle-underscore nil)
 (setq ac-source-R
 	  '((prefix . ess-ac-start)
-		(requires . 2) ;; this line in particular allows the popup of the help menu with out needing to start the word first
+		(requires . 0) ;; this line in particular allows the popup of the help menu with out needing to start the word first
 		(candidates . ess-ac-candidates) ;; to get the default functionality back change (requires . 0) to (requires . 2)
 		(document . ess-ac-help)))
 ;;(define-key ac-completing-map [return] nil)
@@ -135,3 +138,8 @@
 (load "auctex.el" nil t t)
 (setq TeX-auto-save t)
 (setq TeX-parse-self t)
+;; RUST
+(setq racer-rust-src-path "/Users/coetzeesg/devel/rust/src/")
+(setq racer-cmd "/Users/coetzeesg/devel/racer/target/release/racer")
+(add-to-list 'load-path "/Users/coetzeesg/devel/racer/editors")
+(eval-after-load "rust-mode" '(require 'racer))

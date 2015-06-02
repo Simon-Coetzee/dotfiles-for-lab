@@ -1,0 +1,3 @@
+echo $TERM
+echo $SHELL
+exit

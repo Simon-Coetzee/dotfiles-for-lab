@@ -1,0 +1,1 @@
+("~/.dotfiles/" "~/Work/fsnp2/" "~/Work/motifbreakR/")

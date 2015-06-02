@@ -1,7 +1,7 @@
 if(interactive()){
 	require(utils)
 	options(menu.graphics=FALSE)
-#	options(menu.graphics=FALSE, repos=c("http://www.vps.fmvz.usp.br/CRAN/",
+#	options(menu.graphics=FALSE, repos=c("205.251.215.145")),
 #										 "http://brieger.esalq.usp.br/CRAN/"))
 #options(prompt="R » ")
 	options(prompt="R > ")
